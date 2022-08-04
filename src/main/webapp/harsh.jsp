@@ -7,6 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>HARSH HERE........</h1>
+<% 
+if(request.getSession().getAttribute("id")==null){
+	response.sendRedirect("login.jsp");
+}
+%>
+<H3>Hello my name is Harsh Vijay.</H3></br>
+Instagram:<a href="https://www.instagram.com/sinha_harsh7"/>Click here</a></br>
+</br>
+<form action="logout.jsp">
+<input type="hidden" name="logout" value="logout">
+<input type="submit" value="LOG OUT">
+</form>
 </body>
 </html>

@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-WELCCOME TO MY WEBSITE:
-<a href="login.jsp">LOGIN</a>
+WELCCOME TO MY WEBSITE:</br>
+</br>
+</br>
+LOGIN HERE:<a href="login.jsp">LOGIN</a></br>
+SIGN IN: <a href="signin.jsp">SIGN IN</a>
 </body>
 </html>

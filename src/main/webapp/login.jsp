@@ -8,8 +8,8 @@
 </head>
 <body>
 <form action="<%=request.getContextPath()%>/controller" method="post">
-ID: <input type="text" name="id"></br>
-PASSWORD: <input type="text" name="password">
+I_D      : <input type="text" name="id"></br>
+PASSWORD: <input type="text" name="password"></br>
 <input type="submit" value="LOGIN">
 </form>
 </body>
